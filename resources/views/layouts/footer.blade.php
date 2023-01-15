@@ -1,6 +1,6 @@
-<div class="bg-slate-50 pt-10 max-w-[600px] mx-auto">
+<div class="bg-slate-50 pt-10 max-w-[600px] mx-auto text-white">
     <div class="p-4 text-center">
-        <p>© <span id="years"></span> <a href="index.html" class="text-primary underline">Keykawa Store</a>. All
+        <p>© <span id="years"></span> <a href="{{ route('home') }}" class="underline">Keykawa Store</a>. All
             Rights Reserved</p>
     </div>
     <div class="h-20">
@@ -38,7 +38,7 @@
             hs.src = ('//s10.histats.com/js15_as.js');
             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
         })();
-    </script> <noscript><a href='index.html' target='_blank'><img src='https://sstatic1.histats.com/0.gif?4719349&amp;101' alt='' border='0'></a></noscript>
+    </script> <noscript><a href='{{ route('home') }}' target='_blank'><img src='https://sstatic1.histats.com/0.gif?4719349&amp;101' alt='' border='0'></a></noscript>
     <script>
         const loader = document.getElementById("loader")
         setTimeout(() => {

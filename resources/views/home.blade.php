@@ -399,7 +399,7 @@
         <div class="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transdiv transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full animate__animated animate__fadeInUp">
             <div class="rounded-lg min-w-[300px]">
                 <div class="grid grid-cols-3 md:grid-cols-4 gap-4 p-3 mb-4">
-                    <a :href="'/id/' + pr.slug" v-for="(pr, i) in selectedJenis" :key="i" class=" bg-white rounded-lg shadow-md" v-show="pr.status===1">
+                    <a :href="pr.slug" v-for="(pr, i) in selectedJenis" :key="i" class=" bg-white rounded-lg shadow-md" v-show="pr.status===1">
                         <img :src="pr.icon" alt="" class="rounded-t-lg mb-2 w-full object-cover">
                         <p class="t-title text-xs p-2">
                             @{{ pr.name }}

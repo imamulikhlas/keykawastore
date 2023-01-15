@@ -1,13 +1,13 @@
     @yield('header')
     <meta name="description" content="Keykawa Store - Topup Voucher Game Termurah dan Terlengkap! - Top Up Game &amp; Voucher termurah, terpercaya, dan aman legal 100% open 24 Jam dengan payment terlengkap Indonesia">
-    <link rel="icon" type="image/x-icon" href="https://assets.jajangame.com/2022/11/134e9142ab990dc1d95f2a2f9efac049.png">
+    <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/logo.png') }}">
     <meta name='author' content='Keykawa Store'>
     <meta name="theme-color" content="#005C7E" />
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://keykawa.com">
     <meta property="og:title" content="Keykawa Store — Topup Voucher Game Termurah dan Terlengkap!">
     <meta property="og:description" content="Keykawa Store - Topup Voucher Game Termurah dan Terlengkap! - Top Up Game &amp; Voucher termurah, terpercaya, dan aman legal 100% open 24 Jam dengan payment terlengkap Indonesia">
-    <meta property="og:image" content="https://assets.jajangame.com/2022/11/134e9142ab990dc1d95f2a2f9efac049.png">
+    <meta property="og:image" content="{{ asset('assets/img/logo.png') }}">
     <meta name="robots" content="index, follow">
     <meta content="desktop" name="device">
     <meta name="author" content="Keykawa Store">

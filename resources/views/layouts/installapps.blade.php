@@ -14,7 +14,7 @@
             <button onclick="closePwa()">
                 <i class="fas fa-times text-gray-700"></i>
             </button>
-            <img src="https://assets.jajangame.com/2022/11/134e9142ab990dc1d95f2a2f9efac049.png" class="h-6 rounded-md ml-6" alt="">
+            <img src="{{ asset('assets/img/logo.png') }}" class="h-6 rounded-md ml-6" alt="">
             <span class="text-xs text-primary ml-2 w-full">Akses
                 Keykawa Store
                 dari

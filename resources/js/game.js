@@ -40,7 +40,7 @@
                 this.operator = operator.data
 
 
-                this.contact = [{"icon":"https:\/\/assets.jajangame.com\/2022\/11\/79f43639827cc33c0aa71ea836428904.png","name":"Telegram","url":"https:\/\/t.me\/jajangame","username":"@jajangame"},{"icon":"https:\/\/assets.jajangame.com\/2022\/11\/16e7dcd394dd7377d913c296a3505929.png","name":"WhatsApp","url":"https:\/\/api.whatsapp.com\/send?phone=6287790000855&text=Saya%20Butuh%20bantuan.%20Nomor%20Pesanan%20saya%3A%20*JGT....*","username":"0877 90000 855"}]
+                this.contact = [{"icon":"https:\/\/assets.jajangame.com\/2022\/11\/79f43639827cc33c0aa71ea836428904.png","name":"Telegram","url":"https:\/\/t.me\/keykawastore","username":"@keykawastore"},{"icon":"https:\/\/assets.jajangame.com\/2022\/11\/16e7dcd394dd7377d913c296a3505929.png","name":"WhatsApp","url":"https:\/\/api.whatsapp.com\/send?phone=6282284731132&text=Saya%20Butuh%20bantuan.%20Nomor%20Pesanan%20saya%3A%20*JGT....*","username":"0822 8473 1132"}]
                 this.selectedOperator = this.operator[0]
                 if (slider.data) {
                     this.slider = slider.data

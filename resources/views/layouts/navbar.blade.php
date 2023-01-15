@@ -6,8 +6,8 @@
             </div>
         </div>
         <div class="w-full flex justify-center items-center">
-            <a href="index.html">
-                <img class="h-8 -mt-8 " src=" https://assets.jajangame.com/2022/11/7078fd35eaa1a0d01f20a14da34f730a.png" alt="">
+            <a href="{{ route('home') }}">
+                <img class="h-8 -mt-8 " src="{{ asset('assets/img/logo-navbar.png') }}" alt="">
             </a>
         </div>
         <div class="h-max w-max p-4 z-[999]">
@@ -25,7 +25,7 @@
                 <div>
                     <ul class="text-sm">
                         <li class="px-4 py-2 mb-2 flex gap-x-2 items-center cursor-pointer">
-                            <a href="index.html" class="flex gap-x-2 items-center">
+                            <a href="{{ route('home') }}" class="flex gap-x-2 items-center">
                                 <i class="fas fa-home"></i>
                                 <p>Beranda</p>
                             </a>

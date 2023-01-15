@@ -3,7 +3,7 @@
         <div>
             <ul class="flex justify-between items-center gap-2">
                 <li class="text-center">
-                    <a id='home' href='index.html'>
+                    <a id='home' href='{{ route('home') }}'>
                         <i class="fas fa-home text-2xl"></i>
                         <span class="text-[10px] block">Home</span>
                     </a>
